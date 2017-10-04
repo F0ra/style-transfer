@@ -1,4 +1,4 @@
 # Style transfer
 ## Dependencies
-* *some row*
+* *tensorflow*
 * `-another row`: noice
