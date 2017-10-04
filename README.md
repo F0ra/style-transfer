@@ -14,5 +14,4 @@
 stracture of style image need to be preserved in transformation, last style layers weights need to be increased, else just use default weights.
 ### 
   Also added mask and colour preservation options.
-
-
+## Examples
