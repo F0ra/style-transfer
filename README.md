@@ -21,6 +21,12 @@ stracture of style image need to be preserved in transformation, last style laye
 using random noise initialization of content/style transferred image:
 <img src="examples/ex1.png" width="950"/>
 </p>
+
+<p>
+using random noise initialization of content/style transferred image:
+<img src="examples/ex1Small.png" width="950"/>
+</p>
+
 <p>
 using random noise initialization of content/style transferred image:
 <img src="examples/ex2a.png" width="950"/>
