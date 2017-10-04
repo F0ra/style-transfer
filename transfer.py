@@ -25,16 +25,6 @@ def style_loss(layers, style_weights):
     return s_loss
 
 
-def style_loss1(layers, style_weights):
-    return 0
-
-def content_loss1(layers, content_weights):
-    c_loss = 0
-    for layer in layers:
-        c_loss += content_weights[layer] * (tf.reduce_mean((layers[layer][0] - layers[layer][2]) ** 2.))
-    return c_loss
-
-
 def set_style_weights(layers):
     style_weights = {}
     num_layers = len(layers)
@@ -103,16 +93,15 @@ def tensor_transfer(sandwich, style_weights_mode=1, content_coef=5e-3, noise_coe
             if style_weights_mode == 3:
                 style_weights = {'conv1_1': .2, 'conv2_1': .4, 'conv3_1': .8, 'conv4_1': 1.6, 'conv5_1': 3.2}
             # ==========================================
-            content_weights = {'conv1_1': 0.1, 'conv2_1': 0.2, 'conv3_1': 0.3, 'conv4_1': 0.4, 'conv5_1': 0.5}
 
             loss = style_loss(layers, style_weights) + \
                    noise_coef * noise_loss(sandwich_tf) + \
-                   content_coef * content_loss1(layers, content_weights)
+                   content_coef * content_loss(content_layer, generated_layer)
 
             optimizer = ScipyOptimizerInterface(loss, method='L-BFGS-B', options={'maxiter': 20})
 
-            print('from', loss.eval())
-            print("noise loss", noise_loss(sandwich_tf).eval())
+            print('total loss', loss.eval())
+            print('noise loss', noise_loss(sandwich_tf).eval())
             print('content_loss', content_loss(content_layer, generated_layer).eval())
             optimizer.minimize(sess)
             # =========================================
