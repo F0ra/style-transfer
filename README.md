@@ -40,4 +40,5 @@ using random noise with lumina transfer from style image initialization in left 
 <img src="examples/ex3.png" width="950"/>
 </p>
 
-
+## Running
+To use style-transfer just run transfer.ipynb
