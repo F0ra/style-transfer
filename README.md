@@ -15,6 +15,6 @@ stracture of style image need to be preserved in transformation, last style laye
 ### 
   Also added mask and colour preservation options.
 ## Examples
-<img src="examples/u5.png" width="550"/>some text
+content image<img src="examples/u5.png" width="550"/>
 <p>some more text</p> 
 <img src="examples/ex1.png" width="950"/>
