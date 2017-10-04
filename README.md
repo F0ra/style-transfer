@@ -15,7 +15,7 @@ stracture of style image need to be preserved in transformation, last style laye
 ### 
   Also added mask and colour preservation options.
 ## Examples
-### In all examples below i'm using only one content image
+ In all examples below i'm using only one content image
 <img src="examples/u5.png" width="550"/>
-### using random noise initialization of content/style transferred image: 
+ using random noise initialization of content/style transferred image: 
 <img src="examples/ex1.png" width="950"/>
