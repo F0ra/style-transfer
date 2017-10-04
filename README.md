@@ -19,11 +19,11 @@ stracture of style image need to be preserved in transformation, last style laye
 <img src="examples/u5.png" width="550"/>
 
 <p>
-using random noise initialization of content/style transferred image:
+using random noise initialization of content/style transferred images with default style layers weights:
 <img src="examples/ex1Small.png" width="950"/>
 </p>
 
 <p>
-using random noise initialization of content/style transferred image:
+using random noise with lumina transfer from style image initialization in left transfer and content image with flipped (lumina transfer from style_image) initialization in right:
 <img src="examples/ex2aSmall.png" width="950"/>
 </p>
