@@ -4,5 +4,5 @@
 * *numpy*
 * *skimage*
 * *tensorflow*
-* *[VGG19 network]*: 
+* *[VGG19 network:](https://github.com/machrisaa/tensorflow-vgg) 
 * `-another row`: noice
