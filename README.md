@@ -30,8 +30,7 @@ using random noise with lumina transfer from style image initialization in left 
 <img src="examples/ex2aSmall.png" width="950"/>
 </p>
 
-
-### using random noise initialization of content/style transferred image with mask and default style layers weights:
 <p>
+  using random noise initialization of content/style transferred image with mask and default style layers weights:
 <img src="examples/ex3.png" width="950"/>
 </p>
