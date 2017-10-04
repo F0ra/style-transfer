@@ -1,25 +1,8 @@
 <style>
-table#stylish{
-	font-family:arial;
-	width:35%;
-	text-align:center;
-	border:2px solid black;
-	padding:5px;
-	border-spacing:8px;
-}
 
-
-table#stylish td{
-	color:blue;
-	background-color:yellow;
-	padding:10px;
-}
-table#stylish th{
-	padding:10px;
-}
-strong, p {
+p {
 	text-align:left;
-	font-size:38px;
+	font-size:78px;
 }
 </style>
 # Style transfer
