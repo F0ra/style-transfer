@@ -9,6 +9,6 @@
 
 ## ================================================
   This is my first implemantation of image style/content transfer, based on [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) with few improvements suggested by [Improving the Neural Algorithm of Artistic Style](https://arxiv.org/abs/1605.04603) such that: 
-  *used shifted activations when computing Gram matrices. Works fine.
+* used shifted activations when computing Gram matrices. Works fine.
 
 * `-another row`: noice
