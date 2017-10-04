@@ -15,8 +15,9 @@ stracture of style image need to be preserved in transformation, last style laye
 ### 
   Also added mask and colour preservation options.
 ## Examples
-<p>
+
  In all examples below i'm using only one content image, style image placed in bottom left and initial transferred image in upper left from result
+<p>
 <img src="examples/u5.png" width="550"/>
 </p>
 
