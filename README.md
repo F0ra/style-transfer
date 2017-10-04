@@ -1,3 +1,27 @@
+<style>
+table#stylish{
+	font-family:arial;
+	width:35%;
+	text-align:center;
+	border:2px solid black;
+	padding:5px;
+	border-spacing:8px;
+}
+
+
+table#stylish td{
+	color:blue;
+	background-color:yellow;
+	padding:10px;
+}
+table#stylish th{
+	padding:10px;
+}
+strong, p {
+	text-align:left;
+	font-size:38px;
+}
+</style>
 # Style transfer
 ## Dependencies
 * *cv2*
@@ -15,8 +39,10 @@ stracture of style image need to be preserved in transformation, last style laye
 ### 
   Also added mask and colour preservation options.
 ## Examples
- In all examples below i'm using only one content image
+<p>
+ In all examples below i'm using only one content image, style image placed in bottom left and initial transferred image in upper left from result
 <img src="examples/u5.png" width="550"/>
+</p>
 
 <p>
 using random noise initialization of content/style transferred images with default style layers weights:
@@ -24,11 +50,11 @@ using random noise initialization of content/style transferred images with defau
 </p>
 
 <p>
-using random noise with lumina transfer from style image initialization in left transfer and content image with flipped (lumina transfer from style_image) initialization in right:
+using random noise with lumina transfer from style image initialization in left and content image with flipped (lumina transfer from style_image) initialization in right:
 <img src="examples/ex2aSmall.png" width="950"/>
 </p>
 
 <p>
-using random noise with lumina transfer from style image initialization in left transfer and content image with flipped (lumina transfer from style_image) initialization in right:
+using random noise initialization of content/style transferred image with mask and default style layers weights:
 <img src="examples/ex3.png" width="950"/>
 </p>
