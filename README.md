@@ -41,4 +41,4 @@ using random noise with lumina transfer from style image initialization in left 
 </p>
 
 ## Running
-To use style-transfer just run transfer.ipynb
+To use style-transfer just run transfer.ipynb in Jupyter notebook.
