@@ -23,5 +23,5 @@ using random noise initialization of content/style transferred image:
 </p>
 <p>
 using random noise initialization of content/style transferred image:
-<img src="examples/ex2.png" width="950"/>
+<img src="examples/ex2a.png" width="950"/>
 </p>
