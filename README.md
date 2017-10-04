@@ -1,8 +1,4 @@
-Style transfer
-
 # Style transfer
-## Style transfer
-### Style transfer
-
+## Dependencies
 * *some row*
 * `-another row`: noice
