@@ -1,0 +1,7 @@
+vgg19_fc_less.npy
+some_stuff
+__pycache__
+.ipynb_checkpoints
+test*.ipynb
+test.ipynb
+samples
