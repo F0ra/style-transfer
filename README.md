@@ -13,6 +13,6 @@
 * Tried to use style layers weights in geometric progression, but it didn't improve result. Instead i use weights which equalized all style layers loss and norm them to scalar. This solution notably affected image transformation, but in both ways. Depends if geometric
 stracture of style image need to be preserved in transformation, last style layers weights need to be increased, else just use default weights.
 ### 
-  Also
+  Also added mask and colour preservation options.
 
 
