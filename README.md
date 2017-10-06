@@ -1,4 +1,4 @@
-# Style transfer
+# Style transfer neural net
 ## Dependencies
 * *cv2*
 * *numpy*
